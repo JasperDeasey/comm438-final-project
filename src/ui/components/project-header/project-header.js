@@ -5,9 +5,14 @@ const ProjectHeader = (props) => {
         <div className={"heading-container"}>
             <div className={"project-header"}>
                 <h2 className={"project-header-h2"}>
-                    <span>{props.data}</span>
+                    <span>{props.data.title}</span>
                 </h2>
-                <div className={"projectheader"}></div>
+                <div className={"content-left"}>
+                    <div className={"project-header-text"}>
+                        {props.data.text}
+                    </div>
+                </div>
+
             </div>
         </div>
     );
