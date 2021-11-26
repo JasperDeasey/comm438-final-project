@@ -1,0 +1,35 @@
+.subtitle-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header {
+    border-top: 1px solid #faf8f8;
+}
+
+.subtitle {
+    width: 80%;
+    color: #88a092;
+    size: 20px;
+}
+
+.header {
+}
+
+.subtitle-h2 {
+    text-align: center;
+    margin: 10px 0 20px;
+    line-height: 0.1em;
+}
+
+.subtitle-h2 {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    border-color: #88a092;
+}
+
+h2 span {
+    background: #faf8f8;
+    padding: 0 10px;
+}

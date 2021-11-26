@@ -1,10 +1,33 @@
-.App {
-  text-align: center;
+body {
+  background-color: #faf8f8;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  /*font-family: Consolas, sans-serif;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-content-over-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-container-inner {
+  display: inline-flex;
+  width: 80%;
+}
+
+.content-left {
+}
+
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

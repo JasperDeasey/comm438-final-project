@@ -1,0 +1,29 @@
+.heading-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header {
+    border-top: 1px solid #faf8f8;
+}
+
+.project-header{
+    width: 90%;
+    text-align: center;
+    margin: 10px 0 20px;
+    line-height: 0.1em;
+    color: #264653;
+    font-size: 30px;
+}
+
+.project-header-h2 {
+    border-bottom: 3px solid #000;
+    width: 100%;
+    border-color: #264653;
+}
+
+.project-header-h2 span {
+    background: #faf8f8;
+    padding: 0 10px;
+}
