@@ -11,7 +11,7 @@ import Logo from "../../../assets/CK Logo.png";
 import 'typeface-roboto'
 
 const TEXTS = [
-    "A Culture Experience",
+    "A Cultural Experience",
     "Based in Vancouver, BC",
     "Created by Group 2",
     "For Management of Information Systems' Final Project",
