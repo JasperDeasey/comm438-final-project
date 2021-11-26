@@ -13,9 +13,9 @@ import 'typeface-roboto'
 const TEXTS = [
     "A Culture Experience",
     "Based in Vancouver, BC",
-    "Reconnect With Your Culture",
-    "Group 2's COMM497 Project",
-    "Fill Your Soul",
+    "Created by Group 2",
+    "For Management of Information Systems' Final Project",
+    "Helping People Reconnect With Culture Through Food"
 ];
 
 const Landing = () => {
@@ -40,7 +40,7 @@ const Landing = () => {
                         delay={500}
                         animateOnce={true}
                     >
-                        <img src={Logo} />
+                        <img className={"logo-image"} src={Logo} />
                     </ScrollAnimation>
                     <br/>
                     <div className={"culture-kits"}>

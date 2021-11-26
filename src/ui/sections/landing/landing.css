@@ -12,6 +12,10 @@
     height: 100vh;
 }
 
+.logo-image {
+    width: 300px;
+}
+
 .landing-text {
     font-family: Roboto, serif;
     width: 100%;
