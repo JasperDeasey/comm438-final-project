@@ -1,9 +1,8 @@
-import "./content.css";
-import HelloFreshBox from "../../../assets/hello-fresh-box.png";
+import "./subtitle-text.css";
 
 const Content = (props) => {
     return (
-        <div className={"content-container"}>
+        <div className={"subtitle-text-container"}>
             <div className={"content-container-inner"}>
                 <div className={"content-left"}>
                     {props.data.left}

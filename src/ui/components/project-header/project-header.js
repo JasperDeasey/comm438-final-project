@@ -7,7 +7,7 @@ const ProjectHeader = (props) => {
                 <h2 className={"project-header-h2"}>
                     <span>{props.data.title}</span>
                 </h2>
-                <div className={"content-left"}>
+                <div className={"content-header"}>
                     <div className={"project-header-text"}>
                         {props.data.text}
                     </div>

@@ -1,28 +1,18 @@
 .content-container {
     padding: 15px;
-    position: absolute;
+}
+
+.content-container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .content-left {
-    height: 100%;
+    text-align: left;
+    padding: 15px;
+    float: left;
     width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    left: 0;
-}
-
-.content-right {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    right: 0;
 }
 
 .content-container-inner {
