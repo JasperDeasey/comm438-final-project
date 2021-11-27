@@ -80,7 +80,7 @@ const Landing = () => {
                     <ScrollAnimation
                         animateIn="fadeIn"
                         offset={0}
-                        delay={5100}
+                        delay={6000}
                         animateOnce={true}
                     >
                         <KeyboardArrowDownIcon className={"down-icon"} fontSize="large" />

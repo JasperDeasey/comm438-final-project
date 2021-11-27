@@ -8,7 +8,7 @@ const Content = (props) => {
                 <div className={"content-left"}>
                     {props.data.left}
                 </div>
-                <div className={"content-left"}>
+                <div className={"content-right"}>
                     {props.data.right}
                 </div>
             </div>
