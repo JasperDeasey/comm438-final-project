@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da0429a-c08f-47cd-9f28-0727a5ef2730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/AboutUsPageWireFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/FAQPageWireFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MenuPageWireFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ProfilePageWireFrame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/WireFlow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/sections/landing/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/sections/landing/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/components/content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/content/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/components/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/content/content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +55,8 @@
       <recent name="C:\Users\jaspe\Desktop\CPSC Projects\comm438-final-project\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jaspe\Desktop\CPSC Projects\comm438-final-project\public" />
       <recent name="C:\Users\jaspe\Desktop\CPSC Projects\comm438-final-project\src\assets" />
+      <recent name="C:\Users\jaspe\Desktop\CPSC Projects\comm438-final-project\public" />
       <recent name="C:\Users\jaspe\Desktop\CPSC Projects\comm438-final-project\src\ui\sections" />
       <recent name="C:\Users\jaspe\Desktop\CPSC Projects\comm438-final-project\src\ui\components\project-header" />
     </key>
@@ -77,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637612004463</updated>
       <workItem from="1637612005769" duration="4082000" />
-      <workItem from="1637955828544" duration="12093000" />
+      <workItem from="1637955828544" duration="16237000" />
     </task>
     <servers />
   </component>

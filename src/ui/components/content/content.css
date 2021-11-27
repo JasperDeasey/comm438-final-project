@@ -1,3 +1,13 @@
 .content-container {
     padding: 15px;
 }
+
+.content-left {
+    text-align: left;
+    padding: 15px;
+}
+
+.content-container-inner {
+    display: inline-flex;
+    width: 80%;
+}

@@ -12,18 +12,49 @@ body {
   justify-content: center;
 }
 
+.image-wrapper {
+  display: inline-block;
+}
+
+.wireframe-img {
+  width: 100%;
+}
+
+.wireflow-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.wireflow-first-line-text {
+  text-align: center;
+}
+
+.wireflow-text {
+  text-align: left;
+  width: 80%;
+}
+
+.wireflow-img {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 80%;
+}
+
 .content-container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.content-container-inner {
-  display: inline-flex;
-  width: 80%;
-}
-
-.content-left {
+.wireflow-text-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App {
