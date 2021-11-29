@@ -1,7 +1,3 @@
-.content-container {
-    padding: 15px;
-}
-
 .content-container:after {
     content: "";
     display: table;

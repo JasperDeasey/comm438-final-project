@@ -48,7 +48,7 @@ function App() {
             {/*---------------- WIREFRAMES & WIREFLOWS SECTION ----------------*/}
 
             <ProjectHeader data={{title:"Wireframes & Wireflows",
-                text:"Culture Kits’ website will be built with the user experience in mind, ensuring that using and navigating the site are a seamless experience for all types of users. We aimed to keep the technology minimal so that users can focus on using our service - so they can connect, or re-connect, with culture through creating authentic, delicious food from our meal kits."}} />
+                text:"Culture Kits’ website will be built with the user experience in mind, ensuring that using and navigating the site will be a seamless experience for all types of users. We aimed to keep the technology minimal so that users can focus on using our service - so they can connect, or re-connect, with culture through creating authentic, delicious food from our meal kits."}} />
             <Subtitle data={"About Us (Home) Page Wireframe"} />
             <div className={"content-container"}>
                 <div className={"content-container-inner"}>
