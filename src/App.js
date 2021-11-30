@@ -38,7 +38,7 @@ function App() {
             <div className={"just-text-container"}>
                 <div className={"just-text"}>
                     <img className={"wireframe-img"} src={MealKitImg} align={"left"}/>
-                    <p>The proposed product would be a meal prep service that categorises dishes based on cuisine, gathering ingredients from culturally appropriate grocery stores, packaging them with recipes and then sending them to consumers. Each customer would create an account and would order 1-3 meals per week (differing prices based on how many meals). The key differing feature would be the sorting based on culture, targeting the diverse nature of UBC as a community.</p>
+                    <p>The proposed product would be a meal prep service that categorises dishes based on cuisine, gathering ingredients from culturally appropriate grocery stores, packaging them with recipes and then sending them to consumers. Each customer would create an account and would order 1-3 meals per week (differing prices based on how many meals). The key differing feature would be the sorting based on culture, targeting the first- and second- generation immigrants throughout Canada.</p>
                     <p>The lack of differing cuisine options provided by existing food prep services creates a gap in the market for culturally specific meal options. In addition to that, the difficulty of finding particular ingredients would be eliminated entirely as they are directly shipped to the door. This method of delivery is extremely convenient for customers and due to the current global state it seems even more appropriate. This proposed solution can also have other external benefits like reducing food wastage as each meal prep set only has enough ingredients for one meal.</p>
                     <p>While meal prep services already exist where our solution differs is in terms of authenticity. Every student has eaten cheap unflavoured Chinese takeout when pressed for time, but the low quality ingredients leaves the buyer with a homesick feeling - even high-quality restaurants fail to connect people with the culture the same as creating the dish themselves does. Competitors like “Hello Fresh”, which allow people to create meals themselves, often use cheap ingredients and have generic dishes whereas we will use cuisine specific ingredients by establishing relationships with existing international supermarket chains. These provide us with ethnically accurate ingredients, reminding our customers of home with each bite.</p>
                 </div>
@@ -56,25 +56,21 @@ function App() {
                 </div>
             </div>
 
-            <Subtitle data={"Attractive Pricing"} />
+            <Subtitle data={"Premium Pricing for a Premium Product"} />
             <div className={"just-text-container"}>
                 <div className={"just-text"}>
-                    <p>In terms of revenue model a subscription based model makes the most sense, consumers can choose a certain number of meals per week. Consumers would pay when they make the selection on what prep kit they want. When deciding price, cost of ingredients, shipping, handling, packaging and import/export fees will need to be taken into account. Competitors such as Hello Fresh currently charge $9.69-$11.49 per meal (excluding shipping) so a price set around that range would be ideal.</p>
+                    <p>Culture Kits’ revenue strategy is a subscription-based model, where consumers can choose a certain number of meals per week and lock into different renewal periods for reduced pricing. While competitors such as HelloFresh currently charge $9.69-$11.49 per meal (excluding shipping), our market research indicated that customers are willing to pay a premium price for a premium cultural experience. As a result, our meal kits will range from $16-$20 per unit, depending on the frequency of subscription that the customer signs up for. This premium price tag is justified by the quality ingredients, chef-procured recipes, and cultural experience contained within every box.</p>
                 </div>
             </div>
 
             <Subtitle data={"Large, Unserved Market"} />
             <div className={"just-text-container"}>
                 <div className={"just-text"}>
-                    <p>Culture kits has chosen to target their marketing at millennials, as they are the most receptive audience. Offering a variety of ethnic and culturally appropriate recipes appeals to the foodie culture and connects people to their home countries. We would be focusing on young adults/Students that have moved away from their home countries. Our total addressable market would be all the millennials who are interested in trying ethnic specific food, we would be started by expanding throughout major towns and cities in Canada. At this point there are 530,540 International students in the country. We would be hoping to target 10% (53,000) of all international students in Canada which brings our TAM to approximately $28 billion.</p>
-                    <h5 align={"center"}>TAM = 530,540 * 53,000=$28,118,620,000</h5>
-                </div>
-            </div>
-
-            <Subtitle data={"Key Competitors"} />
-            <div className={"just-text-container"}>
-                <div className={"just-text"}>
-                    <p>Hello Fresh would be the main competitor as they also offer meal prep services; however, there are also several indirect competitors like UberEats or Doordash who may attract some of the other market share as while they offer slightly different services they still target some of the same audience. Culture Kits may have some similar features to these existing platforms but where it differentiates itself is in its tailored food options and relatively affordable pricing.</p>
+                    <p>Culture kits has chosen to target marketing at students and millennials, due to their inability to create traditional target dishes, and eagerness to reconnect with their culture through food. Offering a variety of ethnic and culturally appropriate recipes appeals to the foodie culture and connects people to their home countries. We would be focusing on young adults/Students that have moved away from their home countries as first generation immigrants, as well as second-generation immigrants who have moved away from home and wish to create dishes their parents would make them.</p>
+                    <p>Our total addressable market would be Canadians aged 18-30, who are first-generation and second-generation immigrants, located near major Canadian cities. Canadians aged 18-30 make up nearly 17% of the population, and first- and second-generation immigrants make up 39% of the population. With nearly 40% of Canadians living in near large cities, our target market has a size of nearly 1 million people (2.5% of the Canadian population). Furthermore, there are over half a million international students currently studying in Canada, bringing our total target market to 1.5 million people.</p>
+                    <p>In the United States, 25% of the population has purchased meal kits, yet in Canada this value is only 4% - implying that the market has significant room for growth. In a conservative estimate where this figure grows to 10% of the market, and we are able to capture 5% of the total share, we will have 7,500 customers. At an annual revenue of $988 per customer, our total addressable market is an estimated $7.5 million.</p>
+                    <h5 align={"center"}>TAM = 7,577 * $988 = $7,486,796</h5>
+                    <p>Hello Fresh would be the main competitor as they also offer meal prep services; however, the company does not offer a wide variety of ethnic dishes, nor are these dishes authentic. This leaves a significant market opportunity for Culture Kits to enter, where we can bring quality, authentic dishes to customers and reconnect them with their culture through food.</p>
                 </div>
             </div>
 
