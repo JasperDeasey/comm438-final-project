@@ -25,9 +25,14 @@
     color: #2a9d8f;
 }
 
+.presentation-link {
+    border: 15px;
+    margin: 15px;
+}
+
 .introduction {
     color: #264653;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 0;
     font-weight: normal;
     font-size: 70px;

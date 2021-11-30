@@ -1,12 +1,11 @@
 import "./landing.css";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import React from "react";
-// import "react-slideshow-image/dist/styles.css";
 import '../../../../node_modules/animate.css/animate.css';
 import TextTransition, { presets } from "react-text-transition";
 import ScrollAnimation from "react-animate-on-scroll";
-import Typist from "react-typist";
 import { Link } from "@material-ui/core";
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import Logo from "../../../assets/CK Logo.png";
 import 'typeface-roboto'
 
@@ -31,8 +30,22 @@ const Landing = () => {
 
     return (
         <div className={"landing"}>
+
             <div className={"landing-text"}>
+                <div className={"presentation-link"}>
+                    <ScrollAnimation
+                        animateIn="animate__fadeIn"
+                        animateOut="animate__fadeOut"
+                        offset={0}
+                        delay={5100}
+                        animateOnce={true}
+                    >
+                        <Link href={"https://docs.google.com/presentation/d/1ewvuM-f3uekJvoT4FsSvzLMfBGDccem8VbRspNkW-8k/edit?usp=sharing"}>Presentation Slides <ArrowCircleRightIcon/> </Link>
+                    </ScrollAnimation>
+                </div>
+
                 <p className={"introduction"}>
+
                     <ScrollAnimation
                         animateIn="animate__fadeIn"
                         animateOut="animate__fadeOut"
@@ -80,7 +93,7 @@ const Landing = () => {
                     <ScrollAnimation
                         animateIn="fadeIn"
                         offset={0}
-                        delay={6000}
+                        delay={5000}
                         animateOnce={true}
                     >
                         <KeyboardArrowDownIcon className={"down-icon"} fontSize="large" />
